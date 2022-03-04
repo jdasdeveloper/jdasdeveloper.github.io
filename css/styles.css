@@ -1,0 +1,157 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("/images/bg-desktop.svg");
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    margin: 0 0 0 0;
+    position: relative;
+    
+}
+
+.company-logo{
+    display: block;
+    margin: 50px auto 80px 50px;
+    width: 200px;
+}
+.mockups{
+    float: left;
+    margin-left: 50px;
+    
+}
+
+.text{
+    margin: 50px 50px auto 30px;
+    padding-top: 30px;
+    padding-left: 750px;
+    padding-right: 90px;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 400, 600;
+}
+
+.BUTTON_IMP {
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    height: 0;
+    line-height: 0;
+    color: #7c7c7c;
+    font-family: 'Poppins', sans-serif;
+    height: 7px;
+    width: 120px;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 25px 20px 20px 20px;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 15px auto 30px auto;
+ }
+ 
+ .BUTTON_IMP:hover {
+    background: hsl(300, 69%, 71%);
+    color: white;
+    border: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    text-decoration: none;
+ }
+
+ .f-icon{
+     color: white;
+     display: inline-block;
+     margin: auto 15px;
+     height: 40px;
+     width: 40px;
+     
+ }
+ .f-icon:hover{
+     color: hsl(300, 69%, 71%);
+ }
+
+ .footer{
+     margin: 10% 20px 20px 70%;
+     position: absolute;
+     
+ }
+ 
+ 
+ @media only screen and (min-width: 300px) and (max-width: 1120px) {
+    .mockups{
+        text-align: center;
+        width: 80%;
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    .text{
+        display: block;
+        position: absolute;
+        margin-left: 0px;
+        padding-left: 30px;
+        text-align: center;
+        line-height: 1.7;
+        width: 90%;
+       /* margin: 50px 50px auto 30px;
+    padding-top: 30px;
+    padding-left: 750px;
+    padding-right: 90px;*/
+    }
+    .description{
+        display: block;
+        margin-bottom: 450px;
+    }
+
+    .footer{
+
+        display: block;
+        margin: auto;
+        position: relative;
+        text-align: center;
+        width: 50%;
+    }
+
+    .f-icon{
+        color: white;
+        display: inline-block;
+        margin: auto 15px;
+        height: 40px;
+        width: 40px;
+    }
+    .BUTTON_IMP {
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        border-radius: 60px;
+        height: 0;
+        line-height: 0;
+        color: #7c7c7c;
+        font-family: 'Poppins', sans-serif;
+        height: 7px;
+        width: 15rem;
+        font-size: 1rem;
+        font-weight: 100;
+        padding: 25px 20px 20px 20px;
+        text-align: center;
+        background-color: white;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin: auto;
+     }
+     .company-logo{
+        display: block;
+        margin: 50px auto 80px 50px;
+        width: 150px;
+    }
+
+  }
