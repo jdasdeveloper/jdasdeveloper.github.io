@@ -17,22 +17,28 @@ body{
 .mockups{
     float: left;
     margin-left: 50px;
-    
+    padding: auto;
+    width: 50%;
 }
 
 .text{
-    margin: 50px 50px auto 30px;
-    padding-top: 30px;
-    padding-left: 750px;
-    padding-right: 90px;
+    font-size: 1.1rem;
+    margin: 50px auto auto 57%;
+    padding-top: 1%;
+    padding-left: 0;
+    padding-right: 0px;
+    width: 35%;
 }
 
 .title{
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 400, 600;
+    margin-right: 15%;
 }
-
+.paragraph{
+    font-size: 1.1rem;
+}
 .BUTTON_IMP {
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
@@ -52,7 +58,7 @@ body{
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    margin: 15px auto 30px auto;
+    margin: 15px auto 0 auto;
  }
  
  .BUTTON_IMP:hover {
@@ -78,16 +84,18 @@ body{
  }
 
  .footer{
-     margin: 10% 20px 20px 70%;
+    margin-top: 13%;
+     margin-left: 70%;
      position: absolute;
+     
      
  }
  
  
- @media only screen and (min-width: 300px) and (max-width: 1120px) {
+ @media only screen and (min-width: 300px) and (max-width: 800px) {
     .mockups{
         text-align: center;
-        width: 80%;
+        width: 70%;
         display: block;
         float: none;
         margin: auto;
@@ -95,29 +103,34 @@ body{
 
     .text{
         display: block;
-        position: absolute;
-        margin-left: 0px;
-        padding-left: 30px;
+        position: relative;
+        font-size: 0.7rem;
+        margin: 0 15% 0 15%;
+        width: auto;
+        padding-left: 3.3%;
+        padding-right: 3.3%;
         text-align: center;
         line-height: 1.7;
-        width: 90%;
+        
        /* margin: 50px 50px auto 30px;
     padding-top: 30px;
     padding-left: 750px;
     padding-right: 90px;*/
     }
+    .paragraph{
+        font-size: 1rem;
+    }
     .description{
         display: block;
-        margin-bottom: 450px;
+        margin: auto auto 50px auto;
+       
     }
 
     .footer{
-
         display: block;
-        margin: auto;
+        margin: 0 auto auto auto;
         position: relative;
         text-align: center;
-        width: 50%;
     }
 
     .f-icon{
