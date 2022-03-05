@@ -11,7 +11,8 @@ body{
 
 .company-logo{
     display: block;
-    margin: 50px auto 80px 50px;
+    position: relative;
+    margin: 50px auto 50px 50px;
     width: 200px;
 }
 .mockups{
@@ -100,9 +101,13 @@ body{
         float: none;
         margin: auto;
     }
-
+    .company-logo{
+        margin: 50px auto 30px 50px !important;
+    }
     .title{
-        margin-right: 0;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
     }
     .text{
         display: block;
@@ -127,7 +132,9 @@ body{
     }
     .description{
         display: block;
-        margin: auto auto 50px auto;
+        margin: 0 0 50px 0;
+        padding-left: 0;
+        padding-right: 0;
        
     }
 
