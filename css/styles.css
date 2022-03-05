@@ -101,6 +101,9 @@ body{
         margin: auto;
     }
 
+    .title{
+        margin-right: 0;
+    }
     .text{
         display: block;
         position: relative;
@@ -119,6 +122,8 @@ body{
     }
     .paragraph{
         font-size: 1rem;
+        margin: 0;
+        padding: 0;
     }
     .description{
         display: block;
@@ -152,14 +157,14 @@ body{
         width: 15rem;
         font-size: 1rem;
         font-weight: 100;
-        padding: 25px 20px 20px 20px;
+        padding: 25px 0px 20px 0px;
         text-align: center;
         background-color: white;
         text-decoration: none;
         display: inline-block;
         cursor: pointer;
         text-align: center;
-        margin: 0;
+        
      }
      .company-logo{
         display: block;
