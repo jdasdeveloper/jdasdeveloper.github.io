@@ -94,6 +94,9 @@ body{
  
  
  @media only screen and (min-width: 300px) and (max-width: 800px) {
+     body{
+        background-image: url("/images/bg-mobile.svg");
+     }
     .mockups{
         text-align: center;
         width: 70%;
