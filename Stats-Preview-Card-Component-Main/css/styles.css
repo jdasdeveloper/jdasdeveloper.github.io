@@ -22,7 +22,6 @@ body{
     max-height: auto;
     height: 445px;
     margin: 12%;
-    
     width: auto;
 }
 .text{
@@ -139,5 +138,16 @@ body{
 @media only screen and (max-width: 980px){
     .title{
         font-size: 1.7rem;
+    }
+}
+@media only screen and (min-width: 1441px){
+    .container{
+        max-width: 1080px;
+
+    }
+    .flex-container{
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 }
