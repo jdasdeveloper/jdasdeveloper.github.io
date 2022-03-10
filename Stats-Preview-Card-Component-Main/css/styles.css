@@ -136,7 +136,7 @@ body{
         margin-top: 1.5%;
     }
 }
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 980px){
     .title{
         font-size: 1.7rem;
     }
