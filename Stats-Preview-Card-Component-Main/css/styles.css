@@ -11,6 +11,11 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
 }
+.flex-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 .container{
     align-items: center;
     background-color: var(--background-color);
@@ -20,6 +25,7 @@ body{
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr;
     max-height: auto;
+    max-width: 1080px;
     height: 445px;
     margin: 12%;
     width: auto;
@@ -93,7 +99,6 @@ body{
         padding-top: 0;
         max-width: auto;
         width: auto;
-
     }
     .ilustration{
         background: linear-gradient(var(--ilustration-overlay) , var(--ilustration-overlay)),
@@ -138,16 +143,5 @@ body{
 @media only screen and (max-width: 980px){
     .title{
         font-size: 1.7rem;
-    }
-}
-@media only screen and (min-width: 1441px){
-    .container{
-        max-width: 1080px;
-
-    }
-    .flex-container{
-        align-items: center;
-        justify-content: center;
-        display: flex;
     }
 }
