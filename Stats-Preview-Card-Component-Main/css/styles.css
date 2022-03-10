@@ -55,7 +55,7 @@ body{
 .ilustration{
     background-size: cover;
     background: linear-gradient(var(--ilustration-overlay) , var(--ilustration-overlay)),
-    url("/stats-preview-card-component-main/images/image-header-desktop.jpg") no-repeat;
+    url("/Stats-Preview-Card-Component-Main/images/image-header-desktop.jpg") no-repeat;
     border-bottom-right-radius: var(--card-border);
     border-top-right-radius: var(--card-border);
     grid-row: 1 / 2;
@@ -98,7 +98,7 @@ body{
     }
     .ilustration{
         background: linear-gradient(var(--ilustration-overlay) , var(--ilustration-overlay)),
-         url("/stats-preview-card-component-main/images/image-header-mobile.jpg") no-repeat;
+         url("/Stats-Preview-Card-Component-Main/images/image-header-mobile.jpg") no-repeat;
         background-size: cover;
         border-bottom-right-radius: 0;
         border-top-left-radius: var(--card-border);
