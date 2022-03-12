@@ -154,31 +154,7 @@ margin-left: 24%;
     margin: 7% 10% 0;
     max-width: 80%;
 }
-@media only screen and (min-width: 1441px){
-    .comment-card{
-        height: fit-content;
-    }
-}
-@media only screen and (min-width: 2440px){
-    .comment-card{
-        height: 10rem;
-    }
-}
-@media only screen and (min-width: 3200px){
-    .comment-card{
-        height: 5rem;
-    }
-}
-@media only screen and (min-width: 3900px){
-    .comment-card{
-        height: 12rem;
-    }
-}
-@media only screen and (max-width: 1439px){
-    .comment-card{
-        height: fit-content;
-    }
-}
+
 @media only screen and (min-width: 270px) and (max-width: 846px) {
     body{
         background:
