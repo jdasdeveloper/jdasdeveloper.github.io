@@ -60,7 +60,7 @@ body{
 .ilustration{
     background-size: cover;
     background: linear-gradient(var(--ilustration-overlay) , var(--ilustration-overlay)),
-    url("/Stats-Preview-Card-Component-Main/images/image-header-desktop.jpg") no-repeat;
+    url("../images/image-header-desktop.jpg") no-repeat;
     border-bottom-right-radius: var(--card-border);
     border-top-right-radius: var(--card-border);
     grid-row: 1 / 2;
