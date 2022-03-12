@@ -7,13 +7,17 @@
 }
 
 body{
-    background:
-        url("/Social-proof-section-challenge-hub/images/bg-pattern-top-desktop.svg"),
-        url("/Social-proof-section-challenge-hub/images/bg-pattern-bottom-desktop.svg");
+    min-height: 100vh;
+    margin: 0;
+    background-image:
+        url("../images/bg-pattern-top-desktop.svg"),
+        url("../images/bg-pattern-bottom-desktop.svg");
     background-position: 
-        top,
-        bottom;
-        background-repeat: repeat, repeat-x;
+        left top,
+        right bottom;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto;
+        
     font-family: 'Spartan', sans-serif;
 }
 .flex-container{
@@ -87,7 +91,7 @@ margin-left: 24%;
     width: 40%;
 }
 .star{
-    background: url("/Social-proof-section-challenge-hub/images/icon-star.svg");
+    background: url("../images/icon-star.svg");
     background-repeat: no-repeat;
     display: inline-block;
     height: 20px;
