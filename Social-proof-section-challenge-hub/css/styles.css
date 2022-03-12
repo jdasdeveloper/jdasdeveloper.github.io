@@ -7,7 +7,6 @@
 }
 
 body{
-   
     background:
         url("/Social-proof-section-challenge-hub/images/bg-pattern-top-desktop.svg"),
         url("/Social-proof-section-challenge-hub/images/bg-pattern-bottom-desktop.svg");
@@ -243,20 +242,20 @@ margin-left: 24%;
         margin: 0 auto 5% auto;
     }
     .testimonials{
-        margin: 10% 5%;
-        height: 90vh;
+        margin: 10% 5% auto 5%;
+        height: 50rem;
     }
     .testimonials-container{
         display: grid;
-        height: fit-content;
+        height: auto;
         margin: auto;
-        max-height: 35rem;
+        max-height: auto;
         grid-gap: 3%;
         grid-template-columns: auto;
+        grid-template-rows: auto;
+        padding-bottom: 140px;
     }
     .comment-card{
         margin-top: 0;
-    }
-    
-  
-}
+    }   
+  }
