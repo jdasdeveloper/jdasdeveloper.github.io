@@ -6,15 +6,17 @@
     --ilustration-overlay: hsla(280, 80%, 30%, 0.6);
 }
 body{
+    margin-top: 0;
     background-color: hsl(233, 47%, 7%);
     color: white;
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
 }
 .flex-container{
+    margin-top: -1%;
     align-items: center;
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 .container{
     align-items: center;
@@ -102,7 +104,7 @@ body{
     }
     .ilustration{
         background: linear-gradient(var(--ilustration-overlay) , var(--ilustration-overlay)),
-         url("/Stats-Preview-Card-Component-Main/images/image-header-mobile.jpg") no-repeat;
+         url("../images/image-header-mobile.jpg") no-repeat;
         background-size: cover;
         border-bottom-right-radius: 0;
         border-top-left-radius: var(--card-border);
