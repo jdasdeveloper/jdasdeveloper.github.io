@@ -3,6 +3,11 @@ body{
     background-color: hsl(0, 0%, 98%);
     font-family: 'Poppins', sans-serif;
 }
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .header{
     color: hsl(234, 12%, 34%);;
     display: block;
@@ -29,6 +34,7 @@ body{
     font-weight: 400;
     line-height: 1.5;
     margin: 1% auto 5% auto;
+    max-width: 540px;
     text-align: center;
     width: 38%;
 }
@@ -36,6 +42,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 4fr);
     position: relative;
+    max-width: 1440px;
     height: 32rem;
     width: 100%;
     margin-right: 0;
@@ -46,6 +53,8 @@ body{
     border-top: solid 4.5px;
     font-size: 0.8rem;
     height: 30%;
+    max-height: 240px;
+    max-width: 352px;
     width: 75%;
     box-shadow: 0 5px 20px 0px hsl(232, 74%, 85%);
     border-radius: 5px;
@@ -105,7 +114,7 @@ body{
   
   }
 
-@media only screen and (min-width: 300px) and (max-width: 846px) {
+@media only screen and (min-width: 200px) and (max-width: 846px) {
     .header{
         font-size: 1.4rem;
         font-weight: 200;
