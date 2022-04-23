@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+<body>
+  <div class="header-container">
+      <header>
+          <nav>
+            <div class="header-logo"></div>
+              <div id="header-menu" class="header-menu content1"></div>
+                <div class="header-options-container">
+                  <div class="header-option" id="header-option-0">Product
+                    <div class="header-sub-option-main" id="header-sub-option-main-0" style="display: none;">
+                      <div class="header-sub-option-container">
+                        <div class="header-sub-option">Product Zero</div>
+                        <div class="header-sub-option">Product One</div>
+                        <div class="header-sub-option">Product X</div>
+                      </div>
+                    </div>
+                    <div class="arrow-light rotate_0" id="arrow-light-0"></div>
+                  </div>
+                  <div class="header-option" id="header-option-1">Company
+                    <div class="header-sub-option-main" id="header-sub-option-main-1" style="display: none;">
+                      <div class="header-sub-option-container">
+                        <div class="header-sub-option">Subsidiaries</div>
+                        <div class="header-sub-option">Locations</div>
+                      </div>
+                    </div>
+                    <div class="arrow-light rotate_0" id="arrow-light-1"></div>
+                  </div>
+                  <div class="header-option" id="header-option-2">Connect
+                    <div class="header-sub-option-main" id="header-sub-option-main-2" style="display: none;">
+                      <div class="header-sub-option-container">
+                        <div class="header-sub-option">Contact</div>
+                        <div class="header-sub-option">Newsletter</div>
+                        <div class="header-sub-option">LinkedIn</div>
+                      </div>
+                    </div>
+                    <div class="arrow-light rotate_0" id="arrow-light-2"></div>
+                  </div>
+                </div>
+                <div class="btn-nav-container">
+                  <button class="btn-nav btn-login">Login</button>
+                  <button class="btn-nav btn-sign-up">Sign Up</button>
+                </div>
+            </nav>
+          <div id="nav-mobile" class="nav-mobile">
+            <div class="nav-mobile-option-container">
+              <div id="nav-mobile-option-product" class="nav-mobile-option nav-mobile-option0 collapsible" onclick="rotate('nav-mobile-option-product')">Product
+                 <div id="arrow-dark-0" class="arrow-dark rotate_0"></div>
+              </div>
+              <div class="nav-mobile-option-sub-container" style="display: block;">
+                <div class="nav-mobile-option-container nav-mobile-option-sub-container-first">
+                  <div class="nav-mobile-sub-option">Product Zero </div>
+                </div>
+                <div class="nav-mobile-option-container">
+                  <div class="nav-mobile-sub-option">Product One </div>
+                </div>
+                <div class="nav-mobile-option-container">
+                  <div class="nav-mobile-sub-option nav-mobile-option-sub-container-last">Product X </div>
+                </div>
+             </div>
+            </div>
+            <div class="nav-mobile-option-container">
+              <div id="nav-mobile-option-company" class="nav-mobile-option nav-mobile-option1 collapsible" onclick="rotate('nav-mobile-option-company')">Company
+                 <div id="arrow-dark-1" class="arrow-dark rotate_0"></div>
+              </div>
+              <div class="nav-mobile-option-sub-container" style="display: block;">
+                <div class="nav-mobile-option-container nav-mobile-option-sub-container-first">
+                  <div class="nav-mobile-sub-option">Subsidiaries </div>
+                </div>
+                <div class="nav-mobile-option-container">
+                  <div class="nav-mobile-sub-option nav-mobile-option-sub-container-last">Locations </div>
+                </div>
+             </div>
+            </div>
+            <div class="nav-mobile-option-container">
+                <div id="nav-mobile-option-connect" class="nav-mobile-option nav-mobile-option2 collapsible" onclick="rotate('nav-mobile-option-connect')">Connect
+                  <div id="arrow-dark-2" class="arrow-dark rotate_0"></div>
+                </div>
+                <div class="nav-mobile-option-sub-container" style="display: block;">
+                  <div class="nav-mobile-option-container nav-mobile-option-sub-container-first">
+                    <div class="nav-mobile-sub-option">Contact </div>
+                  </div>
+                  <div class="nav-mobile-option-container">
+                    <div class="nav-mobile-sub-option">Newsletter </div>
+                  </div>
+                  <div class="nav-mobile-option-container">
+                    <div class="nav-mobile-sub-option nav-mobile-option-sub-container-last">LinkedIn </div>
+                  </div>
+               </div>
+            </div>
+            <div class="nav-mobile-option-container">
+              <div class="nav-mobile-btn-container">
+                <button class="btn-nav btn-login">Login</button>
+                <button class="btn-nav btn-sign-up">Sign Up</button>
+              </div>
+            </div>
+          </div>
+          <div class="header-info-container">
+              <h1 class="header-title">A modern publishing platform</h1>
+              <p class="header-description">Grow your audience and build your online brand</p>
+              <div class="header-description-btn-container">
+                <button class="btn-header btn-start">Start for Free</button>
+                <button class="btn-header btn-learn-more">Learn More</button>
+              </div>
+          </div>
+      </header>
+    </div>
+    <main>
+      <h2 class="main-title">Designed for the future</h2>
+        <div class="main-text-container main-text-container-0">
+            <h3 class="main-secondary-title secondary-title-0">Introducing an extensible editor</h3>
+              <p class="main-paragraph main-paragraph-0">
+                Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                change the looks of a blog.
+              </p>
+            <h3 class="main-secondary-title secondary-title-1">Robust content management</h3>
+            <p class="main-paragraph main-paragraph-1"> 
+                Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+                by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            </p>
+          </div>
+      <div class="main-illustration"></div>
+      <div class="main-illustration-phone"></div>
+      <div class="card-background">
+        <div class="card-style"></div>
+      </div>
+            <div class="main-text-container-1">
+              <h3 class="main-secondary-title secondary-title-2 secondary-title-dark">State of the Art Infrastructure</h3>
+                <p class="main-paragraph main-paragraph-2 paragraph-dark">
+                  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+                </p>
+            </div>
+            <div class="card-background-1">
+              <div class="main-illustration-laptop"></div>
+            </div>
+            <div class="main-text-container main-text-container-2">
+              <h3 class="main-secondary-title secondary-title-3">Free, open, simple</h3>
+                <p class="main-paragraph main-paragraph-3">
+                  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+                  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+                </p>
+              <h3 class="main-secondary-title secondary-title-4">Powerful tooling</h3>
+              <p class="main-paragraph main-paragraph-4"> 
+                Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+          </main>
+    <footer>
+      <div class="footer-logo"></div>
+        <div class="footer-section footer-col-0">
+          <span class="footer-title">Product</span>
+          <span class="footer-option">Overview</span>
+          <span class="footer-option">Pricing</span>
+          <span class="footer-option">Marketplace</span>
+          <span class="footer-option">Features</span>
+          <span class="footer-option">Integrations</span>
+        </div>
+        <div class="footer-section footer-col-1">
+          <span class="footer-title">Company</span>
+          <span class="footer-option">About</span>
+          <span class="footer-option">Team</span>
+          <span class="footer-option">Blog</span>
+          <span class="footer-option">Careers</span>
+        </div>
+        <div class="footer-section footer-col-2">
+          <span class="footer-title">Connect</span>
+          <span class="footer-option">Contact</span>
+          <span class="footer-option">Newsletter</span>
+          <span class="footer-option">LinkedIn</span>
+        </div>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
