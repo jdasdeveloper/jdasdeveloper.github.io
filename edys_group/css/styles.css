@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    width: 100vw;
+}
+.company-logo{
+    background-image: url(http://edysgroup.com/images/headedys.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    margin: auto;
+    height: 100%;
+    max-height: 60%;
+    min-height: 75px;
+    min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+}
+.desktop-text-container{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.desktop-main-text-1{
+    background-image: linear-gradient(90deg, #04b102, #f69616);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 5rem !important;
+    width: 700px !important;
+}
+.desktop-main-text-2{
+    background-image: linear-gradient(90deg, #d29900, #fe9200);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 5rem !important;
+    width: 700px !important;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    z-index: 1;
+}
+.text-container{
+    margin: auto;
+}
+.main-text {
+    font-family: "Ebrima";
+    src: url("/edys_group/fonts/ebrima-bold.ttf");
+    font-size: 4.5rem;
+    margin: auto;
+    width: 300px;
+    z-index: 2;
+  }
+  .main-text-1{
+    background-image: linear-gradient(90deg, #04b102, #f69616);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .main-text-2{
+    background-image: linear-gradient(90deg, #d29900, #fe9200);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+.background{
+    background-image: url("/edys_group/images/bg.jpg");
+    background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop-text-container{
+        display: none;
+    }
+    .logo-container{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+    }
+    .company-logo{
+        background-image: url(http://edysgroup.com/images/headedys.png);
+        background-repeat: no-repeat;
+        background-size: 230px;
+        background-position: center;
+        margin: auto;
+        height: 100%;
+        max-height: 60%;
+        min-height: 75px;
+        min-width: 200px;
+        max-width: 230px;
+        width: 100%;
+    }
+    .background{
+        background-image: url("/edys_group/images/bg-mobile.jpg");
+        background-position: 0% 70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+    .flex-container{
+        display: flex !important;
+    }
+    .main-text {
+        font-family: "Ebrima";
+        src: url("/edys_group/fonts/ebrima-bold.ttf");
+        font-size: 3.5rem;
+        margin: auto;
+        align-items: center;
+        width: 230px;
+        z-index: 2;
+      }
+
+}
+
+@media only screen and (max-width: 280px) {
+    .background{
+        background-image: url("/edys_group/images/Principal-2.jpg");
+        background-position: 0% 70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+    .main-text{
+        margin-left: 15px;
+        font-size: 3.5rem;
+    }
+    .main-text-2{
+        margin-left: 50px;
+        font-size: 3.5rem;
+    }
+    .company-logo{
+        background-size: 250px;
+        max-width: 250px;
+    }
+}
