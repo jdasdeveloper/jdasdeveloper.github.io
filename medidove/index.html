@@ -160,13 +160,28 @@
         <main>
 
             <section id="video-banner">
-                <video autoplay muted loop id="myVideo" muted playsInline>
-                    <source src="./video/hsa.webm" type="video/mp4">
+                <video autoplay muted loop id="myVideo" playsinline muted>
+                    <source src="./video/hsaiphone.mp4">
                 </video>
             </section>
 
             <style>
+                @media (max-width: 1298px) {
+                    #myVideo {
+                        max-width: 50%;
+                        max-height: 100%;
+                    }
+                }
 
+                /* Style the video: 100% width and height to cover the entire window */
+                #myVideo {
+                    position: relative;
+                    right: 0;
+                    bottom: 0;
+                    max-width: 100%;
+                    min-width: auto;
+                    min-height: 100%;
+                }
             </style>
             <!-- hero-area start -->
             <!-- <section class="hero-area">
