@@ -1,12 +1,12 @@
 function resizeViewport() {
-    if (document.documentElement.clientWidth > 800)
+    if (document.documentElement.clientWidth > 1010)
     {
-        document.getElementById("navbar").style.opacity = "1";
+        
         document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0))";
     }
     else
     {   
-        document.getElementById("navbar").style.opacity = "1";
+        
         document.getElementById("navbar").style.background = "#f3f6ff";
     }
 }
@@ -17,17 +17,17 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-    if (document.documentElement.clientWidth > 800){
+    if (document.documentElement.clientWidth > 1010){
     if (document.body.scrollTop > 45 || document.documentElement.scrollTop > 45)
     {
-        document.getElementById("navbar").style.opacity = "1";
         document.getElementById("navbar").style.background = "#f3f6ff";
     }
-    else
+    else if (document.body.scrollTop == 0 || document.documentElement.scrollTop == 0)
     {
-        document.getElementById("navbar").style.opacity = "1";
+        
         document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0))";
-    }}
+    }
+}
 }
 visualViewport.onresize = () => {
     resizeViewport();
