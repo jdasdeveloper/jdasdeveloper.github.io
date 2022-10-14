@@ -72,18 +72,18 @@
                                 </div> -->
                                 <div class="header-social-icons f-right d-none d-xl-block">
                                     <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                        <li><a class="header-option" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a class="header-option" href="#"><i class="fab fa-behance"></i></a></li>
+                                        <li><a class="header-option" href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a class="header-option" href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a class="header-option" href="#"><i class="fab fa-pinterest"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="header__menu f-right">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li><a href="index.html">Home +</a>
+                                        <li><a class="header-option" href="index.html">Home +</a>
                                             <ul class="submenu">
                                                 <li><a href="index.html">Home style 1</a></li>
                                                 <li><a href="index-2.html">Home style 2</a></li>
@@ -92,21 +92,21 @@
                                                 <li><a href="index-5.html">Home style 5</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="services.html">Department +</a>
+                                        <li><a class="header-option" href="services.html">Department +</a>
                                             <ul class="submenu">
                                                 <li><a href="services.html">Services 01</a></li>
                                                 <li><a href="services-2.html">Services 02</a></li>
                                                 <li><a href="services-details.html">Services Details</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="doctor.html">Doctors +</a>
+                                        <li><a class="header-option" href="doctor.html">Doctors +</a>
                                             <ul class="submenu">
                                                 <li><a href="doctor.html">Doctors 01</a></li>
                                                 <li><a href="doctor-2.html">Doctors 02</a></li>
                                                 <li><a href="doctor-details.html">Doctors Details</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="shop.html">Shop</a>
+                                        <!-- <li><a href="shop.html">Shop</a>
                                             <ul class="submenu">
                                                 <li><a href="shop.html">Shop Page</a></li>
                                                 <li><a href="product-details.html">Shop Details</a></li>
@@ -143,7 +143,7 @@
                                                 <li><a href="portfolio-slider.html">Portfolio Slider</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </nav>
                             </div>
@@ -248,6 +248,117 @@
                 </div>
             </section> -->
             <!-- hero-area end -->
+
+            <!-- calculate-area start -->
+            <section id="request-job" class="appointment-area-3 pos-rel pt-115 pb-120"
+                data-background="images/request-job.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-8">
+                            <div class="calculate-box white-bg">
+                                <div class="calculate-content">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="about-title news-letter-title mb-70">
+                                                <!-- <h5 class="pink-color">Appointment</h5> -->
+                                                <h1>Request a Job <span class="pink-color">now</span></span></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <div class="calculate-form appointment-form-3 mb-20">
+                                                    <input class="contact-info" type="text" placeholder="Name*"
+                                                        id="name" name="name" required="true" maxlength="40">
+                                                    <script></script>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <div class="calculate-form appointment-form-3 mb-20">
+                                                    <input type="email" placeholder="Email*" id="email" name="email"
+                                                        required="true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <div class="calculate-form appointment-form-3 mb-20">
+                                                    <input class="contact-info" type="text" placeholder="Degree*"
+                                                        name="degree" id="degree" required="true" maxlength="40">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <div class="calculate-form appointment-form-3 mb-20">
+                                                    <input class="contact-info" type="text" placeholder="Address*"
+                                                        name="address" id="address" required="true" maxlength="50">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <div class="calculate-form appointment-form-3 mb-20">
+                                                    <input placeholder="Phone*" type="tel" name="phone" id="phone"
+                                                        required="true" pattern="/^-?\d+\.?\d*$/"
+                                                        onKeyPress="if(this.value.length==10) return false;">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                                <div class="calculate-form appointment-form-3 mb-20">
+                                                    <input class="contact-info" type="text" placeholder="City"
+                                                        name="conctact-city" id="contact-city" required="true"
+                                                        maxlength="40">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-12 col-lg-12 col-md-12">
+                                                <select name="type_request" id="type_request" required="true">
+                                                    <option value="" selected="selected">Please
+                                                        select your medical specialty</option>
+                                                    <option value="AllergyImmunology">Allergy & Immunology</option>
+                                                    <option value="Anesthesiology">Anesthesiology</option>
+                                                    <option value="ColonRectalSurgery">Colon & Rectal Surgery</option>
+                                                    <option value="Dermatology">Dermatology</option>
+                                                    <option value="EmergencyMedicine">Emergency Medicine</option>
+                                                    <option value="FamilyMedicine">Family Medicine</option>
+                                                    <option value="FamilyPractice">Family Practice</option>
+                                                    <option value="InternalMedicine">Internal Medicine</option>
+                                                    <option value="InternalMedicinePediatrics">Internal
+                                                        Medicine-Pediatrics</option>
+                                                    <option value="MedicalGenetics">Medical Genetics</option>
+                                                    <option value="NeurologicalSurgery">Neurological Surgery</option>
+                                                    <option value="Neurology">Neurology</option>
+                                                    <option value="NuclearMedicine">Nuclear Medicine</option>
+                                                    <option value="ObstetricsGynecology">Obstetrics & Gynecology
+                                                    </option>
+                                                    <option value="Ophthalmology">Ophthalmology</option>
+                                                    <option value="OrthopaedicSurgery">Orthopaedic Surgery</option>
+                                                    <option value="Otolaryngology">Otolaryngology</option>
+                                                    <option value="PathologyAnatomicClinical">Pathology-Anatomic &
+                                                        Clinical</option>
+                                                    <option value="Pediatrics">Pediatrics</option>
+                                                    <option value="PhysicalMedicineRehabilitation">Physical Medicine &
+                                                        Rehabilitation </option>
+                                                    <option value="PlasticSurgery">Plastic Surgery</option>
+                                                    <option value="PreventiveMedicine">Preventive Medicine</option>
+                                                    <option value="Psychiatry">Psychiatry</option>
+                                                    <option value="RadiologyDiagnostic">Radiology-Diagnostic</option>
+                                                    <option value="SleepMedicine">Sleep Medicine</option>
+                                                    <option value="SurgeryGeneral">Surgery-General</option>
+                                                    <option value="ThoracicSurgery">Thoracic Surgery</option>
+                                                    <option value="Urology">Urology</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                </div>
+                                <button href="" class="btn mt-40" id="btn-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- about-area start -->
             <section class="about-area pt-120 pb-90">
                 <div class="container">
@@ -265,35 +376,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-7">
+                        <div class="col-xl-6 col-lg-7 about-us-container">
                             <div class="about-right-side pt-55 mb-30">
                                 <div class="about-title mb-20">
-                                    <h5>About Us</h5>
-                                    <h1>Short Story About MediDove Clinic.</h1>
+                                    <!-- <h5>About Us</h5> -->
+                                    <h1>About us</h1>
                                 </div>
                                 <div class="about-text">
-                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat. Duis aute
-                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                        nulla pariatur. Excepteur sint occaecat
-                                        cupidatat non proident, sunt in culpa qui officia.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                        ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint
-                                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                                        id est laborum.</p><br>
+                                    <p> Healthcare Staffing Associates is the leading provider of Medical/Clinic
+                                        Director
+                                        Services in the State of Florida. Unlike other staffing companies, our expertise
+                                        on Medical Director Services allows us to understand our client's need for
+                                        highly qualified, expertly trained medical doctors.</p>
+                                    <p> We understand is not easy finding the right fit for a Medical Director position.
+                                        Therefore, you can rest assured that our experienced team of staffing
+                                        consultants will recruit and screen only those physicians who meet the highest
+                                        professional standards for your medical practice.</p><br>
                                 </div>
                                 <div class="about-author d-flex align-items-center">
                                     <div class="author-ava">
-                                        <img src="img/about/author-ava.png" alt="">
+                                        <img src="images/about/author-ava.png" alt="">
                                     </div>
-                                    <div class="author-desination">
+                                    <!-- <div class="author-desination">
                                         <h4>Rosalina D. Williamson</h4>
                                         <h6>founder</h6>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -301,97 +408,26 @@
                 </div>
             </section>
             <!-- about-area end -->
-            <!-- calculate-area start -->
-            <section class="appointment-area appointment-area-3 pos-rel pt-115 pb-120"
-                data-background="img/appoinment/appointment-bg.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-8">
-                            <div class="calculate-box white-bg">
-                                <div class="calculate-content">
-                                    <div class="row">
-                                        <div class="col-xl-12">
-                                            <div class="about-title news-letter-title mb-70">
-                                                <h5 class="pink-color">Appointment</h5>
-                                                <h1>Request a Job now</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <form action="">
-
-
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                                <div class="calculate-form appointment-form-3 mb-20">
-                                                    <input type="text" placeholder="Name">
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                                <div class="calculate-form appointment-form-3 mb-20">
-                                                    <input type="text" placeholder="Email">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                                <div class="calculate-form appointment-form-3 mb-20">
-                                                    <input type="text" placeholder="Degree">
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                                <div class="calculate-form appointment-form-3 mb-20">
-                                                    <input type="text" placeholder="Address">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                                <div class="calculate-form appointment-form-3 mb-20">
-                                                    <input type="text" placeholder="Phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                                <div class="calculate-form appointment-form-3 mb-20">
-                                                    <input type="text" placeholder="City">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                                <select>
-                                                    <option value="1">Colon & rectal surgery</option>
-                                                    <option value="2">Name One</option>
-                                                    <option value="2">Name Two</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                </div>
-                                <a href="" class="btn mt-40">submit query</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- calculate-area end -->
 
             <section id="calculate">
                 <div class="row pt-120">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="single-couter counter-box counter-box-white text-center mb-30">
                             <img src="img/counter/counter-icon-7.png" alt="">
-                            <h1><span class="theme-color counter">540</span>+</h1>
-                            <h6 class="green-color pb-20">Expert Doctors</h6>
+                            <h1><span class="theme-color counter">158</span></h1>
+                            <h6 class="green-color pb-20">Physicians</h6>
                             <div class="counter-text mt-10">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut lab.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="single-couter counter-box counter-box-white text-center mb-30">
                             <img src="img/counter/counter-icon-83.png" alt="">
-                            <h1><span class="theme-color counter">899</span>+</h1>
-                            <h6 class="green-color pb-20">Problem Solve</h6>
+                            <h1><span class="theme-color counter">436</span></h1>
+                            <h6 class="green-color pb-20">Companies we helped</h6>
                             <span class="counter-shpae"></span>
                             <div class="counter-text mt-10">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -399,11 +435,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="single-couter counter-box counter-box-white text-center mb-30">
                             <img src="img/counter/counter-icon-9.png" alt="">
-                            <h1><span class="theme-color counter">100</span>+</h1>
-                            <h6 class="green-color pb-20">Award Winner</h6>
+                            <h1><span class="theme-color counter">100</span>%</h1>
+                            <h6 class="green-color pb-20">Customer satisfaction guaranteed</h6>
+                            <span class="counter-shpae"></span>
+                            <div class="counter-text mt-10">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut lab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="single-couter counter-box counter-box-white text-center mb-30">
+                            <img src="img/counter/counter-icon-9.png" alt="">
+                            <h1><span class="theme-color counter">21</span></h1>
+                            <h6 class="green-color pb-20">Specialties</h6>
                             <span class="counter-shpae"></span>
                             <div class="counter-text mt-10">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -809,22 +857,27 @@
             </section> -->
             <!-- pricing-area end -->
             <!-- cta-area start -->
-            <section class="cta-area pos-rel pt-115 pb-120" data-background="img/slider/slider-bg-1.jpg">
+            <section class="cta-area pos-rel pt-120 pb-100" data-background="images/imagen-cabecera.jpg"
+                style="background-position-x: 70%;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-10 offset-xl-1 col-md-12">
                             <div class="cta-text text-center">
                                 <div class="section-title pos-rel mb-50">
                                     <div class="section-text section-text-white pos-rel">
-                                        <h5>Stay healthy & strong to enjoy life</h5>
-                                        <h1 class="white-color">Trust Us To Be There To Help All & Make Things Well
-                                            Again.</h1>
+                                        <h5 class="cta-title">What we do?</h5>
+                                        <h1 class="white-color">We hire medical professionals</h1>
+                                        <p class="cta-text">
+                                            Get a job now with our wide range of medical facilities all around the state
+                                            of Florida.
+                                            Are you a professionals in Healthcare. Come work with us...
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="section-button section-button-left">
+                                <!-- <div class="section-button section-button-left">
                                     <a data-animation="fadeInLeft" data-delay=".6s" href="appoinment.html"
                                         class="btn btn-icon btn-icon-green ml-0"><span>+</span>get a consultant</a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -944,18 +997,19 @@
                                 </ul>
                             </div>
                             <div class="members-text">
-                                <p>Lorem ipsum dolor sit amet, coning
-                                    ctetur adipisicing elit, sed do it on
-                                    eiusmod tempor incididunt me
-                                    ut labore et dolore.</p>
+                                <p>I am very happy with the service Healthcare Staffing Associates has provided. I
+                                    appreciate their efforts to ensure that our medical doctors are highly qualified
+                                    before entering our facilities. <br>Their staffing solutions and customer service is
+                                    outstanding. I feel like I can always count on them and they can assist me in a very
+                                    professional manner.</p>
                             </div>
                             <div class="about-author d-flex align-items-center">
                                 <div class="author-ava">
                                     <img src="img/membership/members-icon-2.png" alt="">
                                 </div>
                                 <div class="author-desination author-desination-2">
-                                    <h4>Mr. Halim Dawn</h4>
-                                    <h6>Founder, TrashTheme</h6>
+                                    <h4>Karen Smith</h4>
+                                    <h6>CEO</h6>
                                 </div>
                             </div>
                         </div>
@@ -972,18 +1026,19 @@
                                 </ul>
                             </div>
                             <div class="members-text">
-                                <p>Lorem ipsum dolor sit amet, coning
-                                    ctetur adipisicing elit, sed do it on
-                                    eiusmod tempor incididunt me
-                                    ut labore et dolore.</p>
+                                <p>I have worked with Healthcare Staffing Associates for 8 months already I am looking
+                                    forward to grow our partnership in the years to come. <br> I would certainly
+                                    encourage any professional in the medical field who is looking for a great place to
+                                    work, to contact Healthcare Staffing Associates. I have referred several doctors and
+                                    have received nice bonuses too. The agency is truly a reliable partner!</p>
                             </div>
                             <div class="about-author d-flex align-items-center">
                                 <div class="author-ava">
                                     <img src="img/membership/members-icon-3.png" alt="">
                                 </div>
                                 <div class="author-desination author-desination-2">
-                                    <h4>Hiliam D. Pawlu</h4>
-                                    <h6>Founder, TrashTheme</h6>
+                                    <h4>Michelle Alvarez</h4>
+                                    <h6>Office Manager</h6>
                                 </div>
                             </div>
                         </div>
@@ -1000,18 +1055,19 @@
                                 </ul>
                             </div>
                             <div class="members-text">
-                                <p>Lorem ipsum dolor sit amet, coning
-                                    ctetur adipisicing elit, sed do it on
-                                    eiusmod tempor incididunt me
-                                    ut labore et dolore.</p>
+                                <p>Healthcare Staffing Associates is a great company to partner with. They have always
+                                    provided the support we need to ensure we have the best doctors and therapists
+                                    available to serve our patients. <br>Their team is very professional. I am
+                                    completely satisfied with their services. They are really prompt, honest and fun to
+                                    work with. I highly recommend this organization.</p>
                             </div>
                             <div class="about-author d-flex align-items-center">
                                 <div class="author-ava">
                                     <img src="img/membership/members-icon-1.png" alt="">
                                 </div>
                                 <div class="author-desination author-desination-2">
-                                    <h4>Eric Z. Piedie</h4>
-                                    <h6>Founder, TrashTheme</h6>
+                                    <h4>Robert Alfonso</h4>
+                                    <h6>President</h6>
                                 </div>
                             </div>
                         </div>
@@ -1019,8 +1075,12 @@
                 </div>
             </div>
 
-            <section class="map-area">
-                <div id="contact-map" class="contact-map"></div>
+            <section class="map-area" style="width: 100%">
+                <div class="iframe-maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.4676045821216!2d-80.3284772570014!3d25.821132688410373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bbd3d6e21a4f%3A0xa7324e9bf6973191!2s7950+NW+53rd+St+%23337%2C+Miami%2C+FL+33166%2C+EE.+UU.!5e0!3m2!1ses-419!2sve!4v1516290878304"
+                        width="100%" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </section>
 
             <!-- contact-form-area start -->
