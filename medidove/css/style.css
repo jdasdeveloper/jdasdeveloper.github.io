@@ -447,6 +447,9 @@ label {
   #video-banner {
     margin-top: 100px;
   }
+  #navbar {
+    /*background: #f3f6ff;*/
+  }
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -461,7 +464,7 @@ label {
 /*navbar*/
 #navbar {
   /* overflow: hidden; */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));*/
   color: black;
   padding: 10px 10px;
   transition: 0.4s;
