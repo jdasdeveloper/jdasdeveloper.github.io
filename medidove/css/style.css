@@ -443,7 +443,7 @@ label {
     max-height: 100%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1010px) {
   #video-banner {
     margin-top: 100px;
   }
