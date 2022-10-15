@@ -32,8 +32,8 @@ a.meanmenu-reveal {
 .mean-container a.meanmenu-reveal {
   border: 0;
   border-radius: 10px;
-  background-color: var(--accent);
-  color: var(--bg-white);
+  background-color: none;
+  color: var(--accent);
   cursor: pointer;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,7 +50,7 @@ a.meanmenu-reveal {
   width: 34px;
 }
 .mean-container a.meanmenu-reveal span {
-  background: var(--bg-white);
+  background: var(--accent);
   display: block;
   height: 3px;
   margin-top: 5px;
@@ -64,6 +64,8 @@ a.meanmenu-reveal {
   float: left;
   margin-top: 15px;
   width: 100%;
+  border-radius: 10px;
+  border: 0px;
 }
 
 .mean-container .mean-nav ul {
@@ -80,7 +82,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li a {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 0px solid rgba(255, 255, 255, 0.5);
   color: var(--bg-dark);
   display: block;
   float: left;
@@ -94,7 +96,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li li a {
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 0px solid rgba(255, 255, 255, 0.25);
   opacity: 0.75;
   padding: 10px 10%;
   text-shadow: none;
@@ -132,8 +134,9 @@ a.meanmenu-reveal {
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
   background: var(--accent) none repeat scroll 0 0;
-  border-color: none;
+
   border-radius: 10px;
+  border: 0px;
   /* rgba(255, 255, 255, 0.4); */
   border-image: none;
   border-style: none none solid solid;
@@ -141,12 +144,13 @@ a.meanmenu-reveal {
   color: var(--bg-white);
   font-weight: 700;
   height: 27px;
-  margin-top: 1px;
-  padding: 5px 12px;
+  margin: auto;
+  padding: 5px 5px;
   position: absolute;
   right: 0;
   text-align: center;
   top: 0;
+  bottom: 0;
   width: 26px;
   z-index: 2;
 }
@@ -191,7 +195,7 @@ a.meanmenu-reveal {
 }
 
 .header-2 .mean-container a.meanmenu-reveal {
-  border: 1px solid #fff;
+  border: 0px solid #fff;
   color: #fff;
 }
 .header-2 .mean-container a.meanmenu-reveal span {

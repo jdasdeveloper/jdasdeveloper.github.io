@@ -306,21 +306,21 @@ label {
   padding-top: 24px;
   padding-bottom: 22px;
   background-color: var(--accent);
-  box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(19, 111, 99, 0.3);
 }
 .btn-icon-green {
   background-color: var(--hover);
-  box-shadow: 0px 8px 16px 0px rgba(143, 181, 105, 0.3);
+  box-shadow: 0px 8px 16px 0px rgba(19, 111, 99, 0.3);
 }
 
 .btn-icon:hover {
   background-color: var(--hover);
-  box-shadow: 0px 8px 16px 0px rgba(125, 178, 73, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(19, 111, 99, 0.3);
   color: #fff;
 }
 .btn-icon-green:hover {
   background-color: var(--accent);
-  box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(19, 111, 99, 0.3);
 }
 .btn-icon span {
   position: absolute;
@@ -472,7 +472,7 @@ label {
 }
 @media (max-width: 992px) {
   #video-banner {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 }
 
@@ -488,16 +488,14 @@ label {
 /*navbar*/
 #navbar {
   /* overflow: hidden; */
-  /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));*/
-
-  padding: 10px 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  padding: 0px 0px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 99;
 }
-
 .header-option {
   color: #f3f6ff;
 }
@@ -513,14 +511,20 @@ label {
     background-position: 0% 50%;
   }
   #navbar {
-    background-color: var(--bg-white);
+    /* background-color: var(--bg-white); */
+    backdrop-filter: blur(10px);
+    height: 80px !important;
+    background: linear-gradient(
+      rgba(243, 246, 255, 0.5),
+      rgba(243, 246, 255, 0.5)
+    );
   }
 }
 #header_logo {
   background-image: url("../images/logo-blanco.png");
 }
 .logo {
-  background-size: 75%;
+  background-size: 80%;
   background-repeat: no-repeat;
   /* max-height: 50px; */
   height: 150px;
@@ -536,6 +540,8 @@ label {
 }
 #navbar {
   /* background-color: var(--bg-white); */
+  height: 120px;
+  margin: auto;
 }
 
 /* #navbar a {
@@ -600,6 +606,7 @@ label {
   border-radius: 100%;
   z-index: 1;
 }
+
 .header__menu ul li {
   display: inline-block;
   margin-left: 30px;
@@ -633,7 +640,7 @@ label {
 }
 .header__menu ul li ul.submenu {
   position: absolute;
-  background: #ffffff;
+  background: var(--bg-white);
   width: 250px;
   top: 110%;
   left: 0;
@@ -1513,8 +1520,8 @@ input.main-search-input:-ms-input-placeholder {
   padding-left: 60px;
   padding-bottom: 9px;
   border: 2px solid #f0f8ff;
-  border-radius: 0;
 }
+
 .service-contact-form .nice-select .current {
   font-weight: 400;
   color: #647589;
@@ -2513,6 +2520,7 @@ li.price-del i {
 }
 .appointment-area-3 .calculate-box .nice-select {
   border: 2px solid #d3e2f0;
+  border-radius: 0px;
 }
 .appointment-area-3 .calculate-form input {
   border: 2px solid #d3e2f0;
@@ -3654,7 +3662,7 @@ ul.cat li a:hover {
 .basic-pagination ul li.active a {
   background: var(--accent);
   color: #ffffff;
-  box-shadow: 0px 8px 16px 0px rgba(254, 69, 54, 0.3);
+  box-shadow: 0px 8px 16px 0px var(--hover);
 }
 
 .basic-pagination-2 ul li a {
@@ -5653,7 +5661,7 @@ p.checkout-coupon input[type="text"] {
 }
 .btn-icon-gray:hover {
   background: var(--accent);
-  box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+  box-shadow: 0px 8px 16px 0px var(--hover);
 }
 .h4latestnews-box:hover .h4latestnews-wrapper {
   border: 1px solid transparent;
