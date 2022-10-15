@@ -505,13 +505,15 @@ label {
   #header_logo {
     margin: auto;
     background-image: url("../images/logo1.png") !important;
-    /* background: red; */
     background-size: 100%;
     background-repeat: no-repeat;
     height: 70px;
     width: 250px;
     min-height: 50px;
     background-position: 0% 50%;
+  }
+  #navbar {
+    background-color: var(--bg-white);
   }
 }
 #header_logo {
@@ -533,7 +535,7 @@ label {
   transition: 0.4s;
 }
 #navbar {
-  background-color: var(--bg-white);
+  /* background-color: var(--bg-white); */
 }
 
 /* #navbar a {
