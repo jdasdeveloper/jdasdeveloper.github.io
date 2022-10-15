@@ -1,11 +1,13 @@
 function resizeViewport() {
     if (document.documentElement.clientWidth <= 1009)
     {
-        document.getElementById("navbar").style.background = "#f3f6ff";
+        // document.getElementById("navbar").style.backdropFilter = "blur(10px)";
+        // document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)";
         document.getElementById("header_logo").style.backgroundImage = "url('../images/logo1.png')";
     }
     else if (document.body.scrollTop < 45 || document.documentElement.scrollTop < 45)
     {   
+        document.getElementById("navbar").style.backdropFilter = "blur(0)";
         document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0))";
         document.getElementById("header_logo").style.backgroundImage = "url('../images/logo-blanco.png')";
         reset("#f3f6ff");
@@ -22,19 +24,28 @@ function scrollFunction() {
     if (document.documentElement.clientWidth >= 1010){
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0)
     {
-        document.getElementById("navbar").style.background = "#f3f6ff";
+        $("#navbar").animate({
+            background: "linear-gradient(rgba(243, 246, 255, 0.5), rgba(243, 246, 255, 0.5)",
+        }, 1000 );
+        document.getElementById("navbar").style.backdropFilter = "blur(10px)";
+        // document.getElementById("navbar").style.background = "linear-gradient(rgba(243, 246, 255, 0.5), rgba(243, 246, 255, 0.5)";
         document.getElementById("header_logo").style.backgroundImage = "url('./images/logo1.png')";
         reset("rgb(5,5,5)");
     }
     else if (document.body.scrollTop <= 45 || document.documentElement.scrollTop <= 45)
     {
-        
-        document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0))";
+        $("#navbar").animate({
+            background: "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0))",
+        }, 1000 );
+        // document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0))";
+        document.getElementById("navbar").style.backdropFilter = "blur(0)";
         document.getElementById("header_logo").style.backgroundImage = "url('./images/logo-blanco.png')";
         reset("#f3f6ff");
     }
 }
-else{document.getElementById("header_logo").style.backgroundImage = "url('./images/logo1.png')";
+else{
+    document.getElementById("header_logo").style.backgroundImage = "url('./images/logo1.png')";
+    document.getElementById("navbar").style.background = "linear-gradient(rgba(243, 246, 255, 0.5), rgba(243, 246, 255, 0.5)";
 
 }
 }
