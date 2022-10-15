@@ -1020,8 +1020,22 @@ input.main-search-input:-ms-input-placeholder {
 .about-us-container {
   margin: auto;
 }
+@media (min-width: 1010px) {
+  .about-text {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .about-us-title {
+    margin-top: auto !important;
+  }
+}
+.about-us-title {
+  margin-top: 100px !important;
+}
 .about-text {
-  margin-left: 20px;
+  margin: auto;
+  margin-top: 50px;
+
   text-align: center;
 }
 .about-front-img {
@@ -1183,6 +1197,9 @@ input.main-search-input:-ms-input-placeholder {
 .section-text-small h5 {
   color: #e12454;
   text-transform: uppercase;
+}
+#calculate {
+  padding-bottom: 70px;
 }
 .calculate-section .section-text-white h5 {
   color: #b1c5d3;
