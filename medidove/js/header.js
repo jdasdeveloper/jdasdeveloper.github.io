@@ -49,9 +49,15 @@ function reset(color) {
 	}
 }
 
-document.addEventListener('load', (event) => {
+// document.addEventListener('load', (event) => {
+//     console.log('page is fully loaded');
+//     if (document.documentElement.clientWidth <= 1010){
+//         document.getElementById("header_logo").style.backgroundImage = "url('./images/logo-blanco.png')";
+//     }
+//   });
+  $(document).ready(function(){
     console.log('page is fully loaded');
     if (document.documentElement.clientWidth <= 1010){
         document.getElementById("header_logo").style.backgroundImage = "url('./images/logo-blanco.png')";
     }
-  });
+ })
