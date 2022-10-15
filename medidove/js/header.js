@@ -4,7 +4,7 @@ function resizeViewport() {
         document.getElementById("navbar").style.background = "#f3f6ff";
         document.getElementById("header_logo").style.backgroundImage = "url('../images/logo1.png')";
     }
-    else if (document.body.scrollTop == 0 || document.documentElement.scrollTop == 0)
+    else if (document.body.scrollTop < 45 || document.documentElement.scrollTop < 45)
     {   
         document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0))";
         document.getElementById("header_logo").style.backgroundImage = "url('../images/logo-blanco.png')";
