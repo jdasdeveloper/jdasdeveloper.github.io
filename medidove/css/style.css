@@ -513,6 +513,7 @@ label {
   #navbar {
     /* background-color: var(--bg-white); */
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     height: 80px !important;
     background: linear-gradient(
       rgba(243, 246, 255, 0.5),
