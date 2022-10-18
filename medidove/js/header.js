@@ -4,6 +4,8 @@ function resizeViewport() {
         // document.getElementById("navbar").style.backdropFilter = "blur(10px)";
         // document.getElementById("navbar").style.background = "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)";
         document.getElementById("header_logo").style.backgroundImage = "url('../images/logo1.png')";
+        document.getElementById("navbar").style.backdropFilter = "blur(10px)";
+        reset("rgba(0, 0, 0, 0.5)");
     }
     else if (document.body.scrollTop < 45 || document.documentElement.scrollTop < 45)
     {   
@@ -31,7 +33,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.webkitBackdropFilter = "blur(10px)";
         // document.getElementById("navbar").style.background = "linear-gradient(rgba(243, 246, 255, 0.5), rgba(243, 246, 255, 0.5)";
         document.getElementById("header_logo").style.backgroundImage = "url('./images/logo1.png')";
-        reset("rgb(5,5,5)");
+        // reset("rgb(5,5,5)");
     }
     else if (document.body.scrollTop <= 45 || document.documentElement.scrollTop <= 45)
     {
