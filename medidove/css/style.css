@@ -594,21 +594,11 @@ label {
       width: 180px !important;
     }
   }
-  /* @media (min-width: 720px) {
-    #header_logo {
-      background-image: url("../images/logo1.png") !important;
-      width: 220px !important;
-    }
-  } */
+
   #navbar {
-    /* background-color: var(--bg-white); */
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     height: 80px !important;
-    /*background: linear-gradient(
-      rgba(243, 246, 255, 0.5),
-      rgba(243, 246, 255, 0.5)
-    );*/
   }
 }
 #header_logo {
@@ -633,7 +623,7 @@ label {
 .logo {
   background-size: 80%;
   background-repeat: no-repeat;
-  /* max-height: 50px; */
+
   height: 150px;
   width: 500px !important;
 
@@ -642,24 +632,15 @@ label {
   background-position: 50% 20%;
 }
 #navbar #logo {
-  /* font-size: 35px; */
   font-weight: bold;
   transition: 0.4s;
 }
 #navbar {
-  /* background-color: var(--bg-white); */
   color: var(--bg-white) !important;
   height: 120px;
   margin: auto;
 }
 
-/* #navbar a {
-  color: red !important;
-} */
-/* header-top */
-.top-bar {
-  /* background: #f3f6ff; */
-}
 .header-info {
   padding-left: 20px;
 }
@@ -699,11 +680,6 @@ label {
 .header-cta-text h5 {
   margin-bottom: 10px;
 }
-/* header menu area */
-/* .logo img {
-  position: relative;
-  z-index: 2;
-} */
 .logo-circle::before {
   position: absolute;
   content: "";
@@ -820,7 +796,7 @@ label {
 }
 .header-social-icons ul li a {
   font-weight: 500;
-  /* color: #647589; */
+
   display: inline-block;
   margin: 0 8px;
 }
@@ -1150,13 +1126,7 @@ input.main-search-input:-ms-input-placeholder {
   color: #fff;
   box-shadow: 0px 6px 12px 0px rgba(254, 69, 54, 0.4);
 }
-/* 4. About */
-/* .about-shape {
-  position: absolute;
-  top: 60px;
-  left: -60px;
-  z-index: -9;
-} */
+
 .about-us-container {
   margin: auto;
 }
