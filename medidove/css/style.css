@@ -99,7 +99,8 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 a,
-.button {
+.button,
+.header-first-options {
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -114,7 +115,9 @@ a:focus,
 }
 
 a:focus,
-a:hover {
+.header-first-options:focus,
+a:hover,
+.header-first-options:hover {
   color: var(--hover);
   text-decoration: none;
 }
@@ -546,7 +549,7 @@ label {
 }
 .header-first-options:hover {
   color: var(--accent) !important;
-  transition: 0.3s;
+  transition: all 0.3s ease !important;
 }
 @media (max-width: 992px) {
   .header-option {
