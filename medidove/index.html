@@ -38,7 +38,7 @@
     <body>
 
         <!-- header begin -->
-        <header>
+        <header id="home">
             <!-- menu-area -->
             <nav class="header-menu-area" id="navbar">
                 <div class="container">
@@ -54,18 +54,19 @@
                                     <ul>
                                         <li><a class="header-option"
                                                 href="https://www.facebook.com/hsamedical/?fref=ts">
-                                                <i class="fab fa-facebook-f" style="color: #f3f6ff">
+                                                <i class="fab fa-facebook-f header-first-options"
+                                                    style="color: #f3f6ff">
                                                 </i>
                                             </a>
                                         </li>
                                         <li><a class="header-option"
                                                 href="https://www.instagram.com/healthcarestaffing/">
-                                                <i class="fab fa-instagram" style="color: #f3f6ff">
+                                                <i class="fab fa-instagram header-first-options" style="color: #f3f6ff">
                                                 </i>
                                             </a>
                                         </li>
                                         <li><a class="header-option" href="https://twitter.com/hsamedical">
-                                                <i class="fab fa-twitter" style="color: #f3f6ff">
+                                                <i class="fab fa-twitter header-first-options" style="color: #f3f6ff">
                                                 </i>
                                             </a>
                                         </li>
@@ -75,28 +76,29 @@
                             <div class="header__menu f-right">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li><a class="header-option header-first-options" href="index.html">Home</a>
-                                            <ul class="submenu">
+                                        <li><a class="header-option header-first-options" href="#home">Home</a>
+                                            <!-- <ul class="submenu">
                                                 <li><a href="index.html">Home style 1</a></li>
                                                 <li><a href="index-2.html">Home style 2</a></li>
                                                 <li><a href="index-3.html">Home style 3</a></li>
                                                 <li><a href="index-4.html">Home style 4</a></li>
                                                 <li><a href="index-5.html">Home style 5</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li><a class="header-option header-first-options" href="services.html">About</a>
-                                            <ul class="submenu">
+                                        <li><a class="header-option header-first-options" href="#about">About</a>
+                                            <!-- <ul class="submenu">
                                                 <li><a href="services.html">Services 01</a></li>
                                                 <li><a href="services-2.html">Services 02</a></li>
                                                 <li><a href="services-details.html">Services Details</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li><a class="header-option header-first-options" href="doctor.html">Doctors</a>
-                                            <ul class="submenu">
+                                        <li><a class="header-option header-first-options" href="#contact-us">Contact
+                                                us</a>
+                                            <!-- <ul class="submenu">
                                                 <li><a href="doctor.html">Doctors 01</a></li>
                                                 <li><a href="doctor-2.html">Doctors 02</a></li>
                                                 <li><a href="doctor-details.html">Doctors Details</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                     </ul>
                                 </nav>
@@ -233,7 +235,7 @@
                 </div>
             </section>
             <!-- about-area start -->
-            <section class="about-area pt-120 pb-90">
+            <section id="about" class="about-area pt-120 pb-90">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-6 col-lg-5">
@@ -242,7 +244,7 @@
                             <div class="dashes"></div>
                             <div class="about-left-side pos-rel mb-30">
                                 <div class="about-front-img">
-                                    <img src="img/about/about-img.jpg" alt="">
+                                    <img src="images/about-us.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -310,7 +312,7 @@
                 </div>
             </section>
             <!-- cta-area start -->
-            <section class="cta-area pos-rel pt-120 pb-100" data-background="images/imagen-cabecera.jpg"
+            <section id="what-we-do" class="cta-area pos-rel pt-120 pb-100" data-background="images/imagen-cabecera.jpg"
                 style="background-position-x: 70%;">
                 <div class="container">
                     <div class="row">
@@ -333,7 +335,7 @@
                 </div>
             </section>
             <!-- cta-area end -->
-            <div class="membership-review member-ship-map gray-bg pos-rel">
+            <div id="testimonials" class="membership-review member-ship-map gray-bg pos-rel">
                 <div class="test-active owl-carousel">
                     <div class="item">
                         <div class="review-box">
@@ -432,7 +434,7 @@
                 </div>
             </section>
             <!-- contact-form-area start -->
-            <section class="contact-form-area gray-bg pt-100 pb-100">
+            <section id="contact-us" class="contact-form-area gray-bg pt-100 pb-100">
                 <div class="container">
                     <div class="form-wrapper">
                         <div class="row align-items-center">
