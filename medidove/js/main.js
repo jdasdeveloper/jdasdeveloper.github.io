@@ -459,10 +459,10 @@ $.scrollUp({
 	activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 });
 
-// nice-slector
-	$(document).ready(function () {
-		$('select').niceSelect();
-	});
+// // nice-slector
+// 	$(document).ready(function () {
+// 		$('select').niceSelect();
+// 	});
 
 // WOW active
 new WOW().init();
