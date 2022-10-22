@@ -138,20 +138,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <form action="" method="POST">
+                                    <form action="#" method="POST" id="request-job-form">
                                         <div class="row">
                                             <div class="col-xl-6 col-lg-6 col-md-6">
                                                 <div class="calculate-form appointment-form-3 mb-20">
                                                     <input class="contact-info input-field-request-job" type="text"
-                                                        placeholder="Name*" id="name" name="name" required="true"
-                                                        maxlength="40">
-                                                    <script></script>
+                                                        placeholder="Name*" id="name" name="name" maxlength="40">
                                                 </div>
                                             </div>
                                             <div class="col-xl-6 col-lg-6 col-md-6">
                                                 <div class="calculate-form appointment-form-3 mb-20">
                                                     <input class="input-field-request-job" type="email"
-                                                        placeholder="Email*" id="email" name="email" required="true">
+                                                        placeholder="Email*" id="email" name="email">
                                                 </div>
                                             </div>
                                         </div>
@@ -159,15 +157,15 @@
                                             <div class="col-xl-6 col-lg-6 col-md-6">
                                                 <div class="calculate-form appointment-form-3 mb-20">
                                                     <input class="contact-info input-field-request-job" type="text"
-                                                        placeholder="Degree*" name="degree" id="degree" required="true"
-                                                        maxlength="40">
+                                                        placeholder="Degree*" name="degree" id="degree" "
+                                                        maxlength=" 40">
                                                 </div>
                                             </div>
                                             <div class="col-xl-6 col-lg-6 col-md-6">
                                                 <div class="calculate-form appointment-form-3 mb-20">
                                                     <input class="contact-info input-field-request-job" type="text"
                                                         placeholder="Address*" name="address" id="address"
-                                                        required="true" maxlength="50">
+                                                        maxlength="50">
                                                 </div>
                                             </div>
                                         </div>
@@ -175,8 +173,7 @@
                                             <div class="col-xl-6 col-lg-6 col-md-6">
                                                 <div class="calculate-form appointment-form-3 mb-20">
                                                     <input class="input-field-request-job" placeholder="Phone*"
-                                                        type="tel" name="phone" id="phone" required="true"
-                                                        pattern="/^-?\d+\.?\d*$/"
+                                                        type="tel" name="phone" id="phone" pattern="/^-?\d+\.?\d*$/"
                                                         onKeyPress="if(this.value.length==10) return false;">
                                                 </div>
                                             </div>
@@ -184,14 +181,14 @@
                                                 <div class="calculate-form appointment-form-3 mb-20">
                                                     <input class="contact-info input-field-request-job" type="text"
                                                         placeholder="City" name="contact-city" id="contact-city"
-                                                        required="true" maxlength="40">
+                                                        maxlength="40">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-xl-12 col-lg-12 col-md-12">
                                                 <select class="input-field-request-job" name="options" id="options"
-                                                    required="true" value="">
+                                                    value="">
                                                     <option value="" disabled selected>Please select your medical
                                                         specialty</option>
                                                     <option value="AllergyImmunology">Allergy & Immunology</option>
@@ -232,12 +229,11 @@
                                                     <option value="" disabled selected>Please select an option
                                                     </option>
                                                 </select>
-
-
                                             </div>
                                         </div>
-                                </div>
-                                <button href="" class="btn mt-40 request-job-btn id=" btn-submit">Submit</button>
+                                    </div>
+                                </form> 
+                                <button href="" class="btn mt-40 request-job-btn"id="btn-submit-request">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -454,26 +450,26 @@
                             </div>
                         </div>
                         <div class="contact-form">
-                            <form id="contact-form" action="#">
+                            <form id="contact-form" action="#" method="POST">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="mb-30">
-                                            <input type="text" name="name" placeholder="Name">
+                                            <input type="text" name="name" id="name" placeholder="Name">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="mb-30">
-                                            <input type="text" name="email" placeholder="Email">
+                                            <input type="text" name="email" id="email" placeholder="Email">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="mb-30">
-                                            <input type="text" name="phone" placeholder="Phone">
+                                            <input type="text" name="phone" id="phone" placeholder="Phone">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="mb-30">
-                                            <input type="text" name="subject" placeholder="Subject">
+                                            <input type="text" name="subject" id="subject" placeholder="Subject">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -481,21 +477,27 @@
                                             <textarea name="message" id="message" cols="30" rows="10"
                                                 placeholder="Message"></textarea>
                                         </div>
+                                        <div class="col-lg-12 col-sm-12 btn-submit-container">
+                                            <div id="success" class="alert alert-success" role="alert" style="display:none; max-width: 470px;">
+                                                 <p style="margin: auto;"> Your information has been received, we’ll contact you shortly.</p>
+                                            </div>
+			                            </div>
                                         <div class="contact-btn text-center">
                                             <button class="btn btn-icon" type="submit">Send
                                                 message</button>
                                         </div>
                                     </div>
                                 </div>
+                                
                             </form>
-                            <p class="ajax-response text-center"></p>
+                            <script src="./js/form.js"></script>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- contact-form-area end -->
         </main>
-        <footer>
+        <footer id="footer">
             <div class="footer-top primary-bg pt-115 pb-90">
                 <div class="container">
                     <div class="row">
@@ -599,7 +601,7 @@
         <script src="./js/isotope.pkgd.min.js"></script>
         <script src="./js/one-page-nav-min.js"></script>
         <script src="./js/slick.min.js"></script>
-        <script src="./js/ajax-form.js"></script>
+        <!-- <script src="./js/ajax-form.js"></script> -->
         <script src="./js/wow.min.js"></script>
         <script src="./js/jquery.scrollUp.min.js"></script>
         <script src="./js/jquery.meanmenu.min.js"></script>
@@ -612,6 +614,8 @@
         <script src="./js/header.js"></script>
         <script src="./js/main.js"></script>
         <script src="./js/select.js"></script>
+        
+      
     </body>
 
 </html>
