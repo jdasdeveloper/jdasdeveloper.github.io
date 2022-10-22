@@ -54,8 +54,10 @@ body {
   font-style: normal;
   color: #647589;
   font-size: 14px;
+  min-width: 290px; /* Suppose you want minimum width of 1000px */
+  width: auto !important; /* Firefox will set width as auto */
+  width: 290px; /* As IE6 ignores !important it will set width as 1000px; */
 }
-
 .img,
 img {
   max-width: 100%;
@@ -86,6 +88,33 @@ img {
 }
 .input-field-request-job {
   border-radius: 30px;
+  margin-bottom: 30px;
+}
+input {
+  color: #647589 !important;
+}
+input::placeholder {
+  color: #647589 !important;
+}
+select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  color: #647589;
+  background-color: #fff;
+  display: block;
+  border: 2px solid #d3e2f0 !important;
+  outline: none;
+}
+
+#options:focus-visible {
+  border: 2px solid #d3e2f0 !important;
+}
+#options:focus {
+  border: 2px solid #d3e2f0 !important;
+}
+#choices {
+  display: none;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -2621,14 +2650,16 @@ li.price-del i {
   width: 100%;
   border-radius: 0;
 }
-.calculate-form input {
+.calculate-form input,
+select {
   height: 70px;
   padding-left: 38px;
   width: 100%;
   border: 2px solid #eee7ff;
   position: relative;
 }
-.calculate-form input::placeholder {
+.calculate-form input,
+select::placeholder {
   color: #647589;
 }
 
@@ -2756,7 +2787,8 @@ li.price-del i {
   border: 2px solid #d3e2f0;
   border-radius: 30px;
 }
-.appointment-area-3 .calculate-form input {
+.appointment-area-3 .calculate-form input,
+select {
   border: 2px solid #d3e2f0;
 }
 .appointment-form-2 input {

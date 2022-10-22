@@ -1141,7 +1141,8 @@
   .calculate-box .nice-select {
     padding-left: 15px;
   }
-  .calculate-form input {
+  .calculate-form input,
+  select {
     padding-left: 15px;
   }
   .download-area a span.download-size {
