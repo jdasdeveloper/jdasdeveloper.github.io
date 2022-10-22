@@ -63,7 +63,6 @@ visualViewport.onresize = () => {
 };
 
   $(document).ready(function(){
-    console.log('page is fully loaded');
     if (document.documentElement.clientWidth <= 1010){
         document.getElementById("header_logo").style.backgroundImage = "url('./images/logo-blanco.png')";
     }
