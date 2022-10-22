@@ -81,6 +81,21 @@ img {
   margin: auto;
   border-radius: 10px;
 }
+#btn-submit-request {
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#success {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
 .request-job-btn {
   border-bottom-left-radius: 30px !important;
   border-bottom-right-radius: 30px !important;
@@ -1845,7 +1860,7 @@ input.main-search-input:-ms-input-placeholder {
   color: #ce1b28;
 }
 /* 8. Fact */
-.fact-map::before {
+/* .fact-map::before {
   position: absolute;
   content: "";
   background-image: url(../img/fact/map.png);
@@ -1855,7 +1870,7 @@ input.main-search-input:-ms-input-placeholder {
   top: 0;
   left: 0;
   background-position: center center;
-}
+} */
 .cta-satisfied {
   padding-left: 129px;
 }
@@ -2068,6 +2083,7 @@ li.price-del i {
   margin-top: 0;
 }
 /* 11. Footer */
+
 .footer-program {
   font-size: 24px !important;
   margin: auto;
@@ -2281,7 +2297,7 @@ li.price-del i {
   color: #fff;
   margin-right: 19px;
 }
-.footer-map::before {
+/* .footer-map::before {
   position: absolute;
   content: "";
   background-image: url(../img/footer/footer-map.png);
@@ -2293,7 +2309,7 @@ li.price-del i {
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0 auto;
-}
+} */
 /* page-title */
 .breadcrumb-bg {
   background-size: cover;
@@ -2946,7 +2962,7 @@ select {
 .membership-review .author-ava {
   margin-right: 15px;
 }
-.member-ship-map::before {
+/* .member-ship-map::before {
   position: absolute;
   content: "";
   background-image: url(../img/membership/map.png);
@@ -2954,7 +2970,7 @@ select {
   min-height: 100%;
   top: 0;
   left: 0;
-}
+} */
 .testimonials-user {
   height: 50px;
   width: 50px;
@@ -3961,7 +3977,9 @@ ul.cat li a:hover {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
+#contact-us {
+  padding-bottom: 250px;
+}
 .contact i {
   background: var(--hover);
   font-size: 40px;
